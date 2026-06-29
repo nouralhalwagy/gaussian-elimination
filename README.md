@@ -2,6 +2,8 @@
 
 A Gaussian Elimination algorithm implemented from scratch using NumPy. Supports both singular and non-singular matrices, and detects whether a system has no solution or infinite solutions.
 
+############# It only supports 3 X 3 Matrices #############
+
 ---
 
 ## How to Use
@@ -36,7 +38,7 @@ If you have a linear system like:
 4a +  b + 0c =  1
 ```
 
-> ⚠️ **Important:** Only enter the **coefficients and the result**, not the full equation. Writing the full equation will cause an error.
+> **Important:** Only enter the **coefficients and the result**, not the full equation. Writing the full equation will cause an error.
 
 Your input should be:
 
